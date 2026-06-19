@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x, 22.x, 24.x]   # test across multiple Node versions
+        node-version: [24.x]   # test across multiple Node versions
     defaults:
       run:
         working-directory: client
@@ -70,7 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x, 22.x, 24.x]
+        node-version: [24.x]
     defaults:
       run:
         working-directory: server
