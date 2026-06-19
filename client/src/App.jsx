@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 const API = "https://testing-repo-six-delta.vercel.app/api/items";
-// new
 function App() {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
