@@ -89,5 +89,5 @@ jobs:
       - name: Install dependencies (server)
         run: npm ci
 
-      - name: Verify server setup
-        run: node -e "console.log('Server dependencies installed successfully')"
+      - name: Run server tests
+        run: npm test
